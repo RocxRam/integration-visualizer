@@ -16,7 +16,6 @@ This project helps understand how numerical integration approximates definite in
 - Visualizes area approximation using Matplotlib
 - Comparison mode (side-by-side graphs)
 - Handles improper inputs and invalid expressions
-- Detects edge cases like singularities (e.g. log(x))
 
 ---
 
