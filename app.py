@@ -49,12 +49,13 @@ def return_val(c):
     return res
 
 def graph(c):
+    fig, ax = plt.subplots()
     if (c==1):
-        plotter.plot_reimann(f,a,b,n)
+        plotter.plot_reimann(f,a,b,n,ax)
     elif (c==2):
-        plotter.plot_midpoint(f,a,b,n)
+        plotter.plot_midpoint(f,a,b,n,ax)
     elif (c==3):
-        plotter.plot_trapezoid(f,a,b,n)
+        plotter.plot_trapezoid(f,a,b,n,ax)
 
 print("------------------Choose Mode------------------")
 print("1. Computing")
